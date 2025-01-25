@@ -26,19 +26,19 @@ awards:
   title: Object-Oriented Programming in R
   url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
 education:
-- area: PhD Artificial Intelligence
+- area: PhD Prior Ignorance in Bayesian # PhD Artificial Intelligence
   button:
     text: Read Thesis
     url: https://example.com
   date_end: "2020-12-31"
   date_start: "2016-01-01"
-  institution: Stanford University
+  institution: University of Saskatchewan # Stanford University
   summary: |
     Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
-- area: MEng Artificial Intelligence
+- area: MSc Computational Statistics # MEng Artificial Intelligence
   date_end: "2020-12-31"
   date_start: "2016-01-01"
-  institution: Massachusetts Institute of Technology
+  institution: University of Manitoba # Massachusetts Institute of Technology
   summary: |
     GPA: 3.8/4.0
 
@@ -46,10 +46,10 @@ education:
     - lorem ipsum dolor sit amet, consectetur adipiscing elit
     - lorem ipsum dolor sit amet, consectetur adipiscing elit
     - lorem ipsum dolor sit amet, consectetur adipiscing elit
-- area: BSc Artificial Intelligence
+- area: BSc Statistics # Artificial Intelligence
   date_end: "2020-12-31"
   date_start: "2016-01-01"
-  institution: Massachusetts Institute of Technology
+  institution: University of Manitoba # Massachusetts Institute of Technology
   summary: |
     GPA: 3.4/4.0
 
@@ -60,25 +60,28 @@ education:
 first_name: Shiung Wu
 highlight_name: true
 interests:
-- Artificial Intelligence
-- Computational Linguistics
-- Information Retrieval
+# - Artificial Intelligence
+# - Computational Linguistics
+# - Information Retrieval
+- Imprecise Probabilities
+- Bayesian Analysis 
+- Computational Statistics 
 languages:
 - name: English
-  percent: 100
-- name: Chinese
   percent: 75
-- name: Portuguese
-  percent: 25
-last_name: Chien
-name_pronunciation: Chien Shiung Wu
+- name: Korean # Chinese
+  percent: 100
+# - name: Portuguese
+#   percent: 25
+last_name: Lee # Chien
+name_pronunciation: imstatsbee # Chien Shiung Wu
 organizations:
-- name: OpenAI
+- name: # OpenAI
   url: https://openai.com/
 profiles:
 - icon: at-symbol
   label: E-mail Me
-  url: mailto:your-email@example.com
+  url: mailto:imstatsbee@gmail.com # your-email@example.com
 - icon: brands/x
   url: https://twitter.com/GetResearchDev
 - icon: brands/instagram
@@ -91,7 +94,7 @@ profiles:
   url: https://scholar.google.com/
 - icon: academicons/orcid
   url: https://orcid.org/
-role: Chief Scientist
+role: Statistician # Chief Scientist
 skills:
 - items:
   - description: ""
@@ -126,7 +129,7 @@ skills:
 status:
   icon: ☕️
 superuser: true
-title: 吳健雄
+title: # 吳健雄
 work:
 - company_logo: ""
   company_name: GenCoin
@@ -154,4 +157,6 @@ work:
 
 ## About Me
 
+<!--
 Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+-->

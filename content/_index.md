@@ -6,8 +6,8 @@ sections:
 - block: resume-biography-3
   content:
     button:
-      text: Download CV
-      url: uploads/resume.pdf
+      text: # Download CV
+      url: # uploads/resume.pdf
     text: ""
     username: admin
   design:

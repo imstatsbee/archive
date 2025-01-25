@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogdown | Hugo Academic CV Theme</title>
+    <link>https://example.com/tags/blogdown/</link>
+      <atom:link href="https://example.com/tags/blogdown/index.xml" rel="self" type="application/rss+xml" />
+    <description>Blogdown</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 25 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://example.com/media/icon_hu_645fa481986063ef.png</url>
+      <title>Blogdown</title>
+      <link>https://example.com/tags/blogdown/</link>
+    </image>
+    
+    <item>
+      <title>blogdown 101</title>
+      <link>https://example.com/post/blogdown-101/</link>
+      <pubDate>Sat, 25 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://example.com/post/blogdown-101/</guid>
+      <description>&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nf&#34;&gt;seq&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;10&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;##  [1]  1  2  3  4  5  6  7  8  9 10
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;library(devtools)
+remotes::install_github(&amp;lsquo;rstudio/blogdown&amp;rsquo;)
+library(blogdown)&lt;/p&gt;
+&lt;p&gt;imstatsbee/archive
+new_site(theme=&amp;ldquo;HugoBlox/theme-academic-cv&amp;rdquo;)&lt;/p&gt;
+&lt;p&gt;blogdown::serve_site()
+blogdown::stop_server()
+rmdir -rf ./content/post/2020-01-r-markdown&lt;/p&gt;
+&lt;p&gt;blogdown::new_post(title=&amp;ldquo;How to use blogdown in 2025&amp;rdquo;)
+blogdown::new_post(&amp;ldquo;my new post&amp;rdquo;, ext=&amp;quot;.Rmd&amp;quot;)&lt;/p&gt;
+&lt;p&gt;blogdown::build_site()
+blogdown::check_site()&lt;/p&gt;
+&lt;p&gt;usethis::use_git()&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://imstatsbee.netlify.app&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://imstatsbee.netlify.app&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://bookdown.org/yihui/blogdown/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://bookdown.org/yihui/blogdown/&lt;/a&gt;
+&lt;a href=&#34;https://github.com/HugoBlox/theme-academic-cv&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/HugoBlox/theme-academic-cv&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Q. main page ./content/authors/admin/_index.md&lt;/p&gt;
+&lt;h1 id=&#34;references--&#34;&gt;References {-}&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://zihangwang.org/2024-02-12-how-to-use-blogdown-in-2024/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://zihangwang.org/2024-02-12-how-to-use-blogdown-in-2024/&lt;/a&gt;
+&lt;a href=&#34;https://www.kirenz.com/blog/posts/2019-07-20-up-and-running-with-blogdown/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.kirenz.com/blog/posts/2019-07-20-up-and-running-with-blogdown/&lt;/a&gt;
+&lt;a href=&#34;https://www.shilaan.com/post/building-your-website-using-r-blogdown/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.shilaan.com/post/building-your-website-using-r-blogdown/&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

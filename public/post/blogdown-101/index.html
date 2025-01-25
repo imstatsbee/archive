@@ -41,10 +41,14 @@
   
     
   
-  <meta name="description" content="" />
+  <meta name="description" content="seq(1,10,1) ## [1] 1 2 3 4 5 6 7 8 9 10 library(devtools) remotes::install_github(&lsquo;rstudio/blogdown&rsquo;) library(blogdown)
+imstatsbee/archive new_site(theme=&ldquo;HugoBlox/theme-academic-cv&rdquo;)
+blogdown::serve_site() blogdown::stop_server() rmdir -rf ./content/post/2020-01-r-markdown
+blogdown::new_post(title=&ldquo;How to use blogdown in 2025&rdquo;) blogdown::new_post(&ldquo;my new post&rdquo;, ext=&quot;.Rmd&quot;)
+" />
 
   
-  <link rel="alternate" hreflang="en-us" href="https://example.com/post/how-to-use-blogdown-in-2025/" />
+  <link rel="alternate" hreflang="en-us" href="https://example.com/post/blogdown-101/" />
 
   
   
@@ -161,7 +165,7 @@
   <link rel="icon" type="image/png" href="/media/icon_hu_5cac115d14ed3d49.png" />
   <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu_e7f327b39c12e7ca.png" />
 
-  <link rel="canonical" href="https://example.com/post/how-to-use-blogdown-in-2025/" />
+  <link rel="canonical" href="https://example.com/post/blogdown-101/" />
 
   
   
@@ -187,9 +191,20 @@
     <meta property="twitter:creator" content="@GetResearchDev" />
   
   <meta property="og:site_name" content="Hugo Academic CV Theme" />
-  <meta property="og:url" content="https://example.com/post/how-to-use-blogdown-in-2025/" />
-  <meta property="og:title" content="How to use blogdown in 2025 | Hugo Academic CV Theme" />
-  <meta property="og:description" content="" /><meta property="og:image" content="https://example.com/media/icon_hu_645fa481986063ef.png" />
+  <meta property="og:url" content="https://example.com/post/blogdown-101/" />
+  <meta property="og:title" content="blogdown 101 | Hugo Academic CV Theme" />
+  <meta property="og:description" content="seq(1,10,1)
+##  [1]  1  2  3  4  5  6  7  8  9 10
+library(devtools)
+remotes::install_github(&lsquo;rstudio/blogdown&rsquo;)
+library(blogdown)
+imstatsbee/archive
+new_site(theme=&ldquo;HugoBlox/theme-academic-cv&rdquo;)
+blogdown::serve_site()
+blogdown::stop_server()
+rmdir -rf ./content/post/2020-01-r-markdown
+blogdown::new_post(title=&ldquo;How to use blogdown in 2025&rdquo;)
+blogdown::new_post(&ldquo;my new post&rdquo;, ext=&quot;.Rmd&quot;)" /><meta property="og:image" content="https://example.com/media/icon_hu_645fa481986063ef.png" />
     <meta property="twitter:image" content="https://example.com/media/icon_hu_645fa481986063ef.png" /><meta property="og:locale" content="en-us" />
   
     
@@ -208,7 +223,7 @@
   
 
 
-  <title>How to use blogdown in 2025 | Hugo Academic CV Theme</title>
+  <title>blogdown 101 | Hugo Academic CV Theme</title>
 
   
   
@@ -859,22 +874,24 @@
             <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" class="h-[18px] min-w-[18px] rounded-sm p-0.5 hover:bg-gray-800/5 dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="origin-center transition-transform rtl:-rotate-180"></path></svg>
         </span>
     </a><div class="ltr:pr-0 overflow-hidden">
-        <ul class="hb-sidebar-list"><li class="flex flex-col "><a
+        <ul class="hb-sidebar-list"><li class="flex flex-col open"><a
     class="hb-sidebar-custom-link
-      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+      sidebar-active-item bg-primary-100 font-semibold text-primary-800 dark:bg-primary-300 dark:text-primary-900"
     href="/post/blogdown-101/"
     
   >blogdown 101
     </a>
+  
+    <ul class="hb-sidebar-mobile-toc"></ul>
+  
               
-            </li><li class="flex flex-col open"><a
+            </li><li class="flex flex-col "><a
     class="hb-sidebar-custom-link
-      sidebar-active-item bg-primary-100 font-semibold text-primary-800 dark:bg-primary-300 dark:text-primary-900"
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
     href="/post/how-to-use-blogdown-in-2025/"
     
   >How to use blogdown in 2025
     </a>
-  
               
             </li><li class="flex flex-col "><a
     class="hb-sidebar-custom-link
@@ -1052,7 +1069,7 @@
 
 
 
-  <div class="hb-scrollbar text-sm [hyphens:auto] sticky top-16 overflow-y-auto pr-4 pt-6 max-h-[calc(100vh-var(--navbar-height)-env(safe-area-inset-bottom))] -mr-4 rtl:-ml-4">
+  <div class="hb-scrollbar text-sm [hyphens:auto] sticky top-16 overflow-y-auto pr-4 pt-6 max-h-[calc(100vh-var(--navbar-height)-env(safe-area-inset-bottom))] -mr-4 rtl:-ml-4"><p class="mb-4 font-semibold tracking-tight">On this page</p><ul></ul>
 
   
   
@@ -1084,7 +1101,7 @@
 
       
 
-      <h1 class="mt-2 text-4xl font-bold tracking-tight text-slate-900 dark:text-slate-100">How to use blogdown in 2025</h1>
+      <h1 class="mt-2 text-4xl font-bold tracking-tight text-slate-900 dark:text-slate-100">blogdown 101</h1>
 
       <div class="mt-4 mb-16">
       <div class="text-gray-500 dark:text-gray-300 text-sm flex items-center flex-wrap gap-y-2"><span class="mr-1">Jan 25, 2025</span>
@@ -1093,7 +1110,7 @@
         
         <span class="mx-1">·</span>
         <span class="mx-1">
-          0 min read
+          1 min read
         </span>
         
         </div>
@@ -1118,7 +1135,30 @@
       
 
       <div class="prose prose-slate lg:prose-xl dark:prose-invert">
-        
+        <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-r" data-lang="r"><span class="line"><span class="cl"><span class="nf">seq</span><span class="p">(</span><span class="m">1</span><span class="p">,</span><span class="m">10</span><span class="p">,</span><span class="m">1</span><span class="p">)</span>
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">##  [1]  1  2  3  4  5  6  7  8  9 10
+</span></span></code></pre></div><p>library(devtools)
+remotes::install_github(&lsquo;rstudio/blogdown&rsquo;)
+library(blogdown)</p>
+<p>imstatsbee/archive
+new_site(theme=&ldquo;HugoBlox/theme-academic-cv&rdquo;)</p>
+<p>blogdown::serve_site()
+blogdown::stop_server()
+rmdir -rf ./content/post/2020-01-r-markdown</p>
+<p>blogdown::new_post(title=&ldquo;How to use blogdown in 2025&rdquo;)
+blogdown::new_post(&ldquo;my new post&rdquo;, ext=&quot;.Rmd&quot;)</p>
+<p>blogdown::build_site()
+blogdown::check_site()</p>
+<p>usethis::use_git()</p>
+<p><a href="https://imstatsbee.netlify.app" target="_blank" rel="noopener">https://imstatsbee.netlify.app</a></p>
+<p><a href="https://bookdown.org/yihui/blogdown/" target="_blank" rel="noopener">https://bookdown.org/yihui/blogdown/</a>
+<a href="https://github.com/HugoBlox/theme-academic-cv" target="_blank" rel="noopener">https://github.com/HugoBlox/theme-academic-cv</a></p>
+<p>Q. main page ./content/authors/admin/_index.md</p>
+<h1 id="references--">References {-}</h1>
+<p><a href="https://zihangwang.org/2024-02-12-how-to-use-blogdown-in-2024/" target="_blank" rel="noopener">https://zihangwang.org/2024-02-12-how-to-use-blogdown-in-2024/</a>
+<a href="https://www.kirenz.com/blog/posts/2019-07-20-up-and-running-with-blogdown/" target="_blank" rel="noopener">https://www.kirenz.com/blog/posts/2019-07-20-up-and-running-with-blogdown/</a>
+<a href="https://www.shilaan.com/post/building-your-website-using-r-blogdown/" target="_blank" rel="noopener">https://www.shilaan.com/post/building-your-website-using-r-blogdown/</a></p>
+
       </div>
 
       
@@ -1134,6 +1174,14 @@
 
   
 
+<div class="flex justify-center">
+  
+  <a class="no-underline bg-primary-100 hover:bg-primary-300 text-primary-800 text-xs font-medium mr-2 px-2.5 py-0.5 lg:px-5 lg:py-2 rounded dark:bg-primary-900 dark:hover:bg-primary-700 dark:text-primary-300" href="/tags/hugo-blox/">Hugo Blox</a>
+  
+  <a class="no-underline bg-primary-100 hover:bg-primary-300 text-primary-800 text-xs font-medium mr-2 px-2.5 py-0.5 lg:px-5 lg:py-2 rounded dark:bg-primary-900 dark:hover:bg-primary-700 dark:text-primary-300" href="/tags/blogdown/">Blogdown</a>
+  
+</div>
+
 
   
 <section class="flex flex-row flex-wrap justify-center pt-4 text-xl">
@@ -1148,7 +1196,7 @@
   <a
     target="_blank" rel="noopener"
     class="m-1 rounded-md bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral-300 dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-    href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fexample.com%2Fpost%2Fhow-to-use-blogdown-in-2025%2F&amp;text=How&#43;to&#43;use&#43;blogdown&#43;in&#43;2025"
+    href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fexample.com%2Fpost%2Fblogdown-101%2F&amp;text=blogdown&#43;101"
     title="X"
     aria-label="X"
     id="share-link-x"
@@ -1166,7 +1214,7 @@
   <a
     target="_blank" rel="noopener"
     class="m-1 rounded-md bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral-300 dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-    href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fexample.com%2Fpost%2Fhow-to-use-blogdown-in-2025%2F&amp;t=How&#43;to&#43;use&#43;blogdown&#43;in&#43;2025"
+    href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fexample.com%2Fpost%2Fblogdown-101%2F&amp;t=blogdown&#43;101"
     title="Facebook"
     aria-label="Facebook"
     id="share-link-facebook"
@@ -1186,7 +1234,7 @@
   <a
     target="_blank" rel="noopener"
     class="m-1 rounded-md bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral-300 dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-    href="mailto:?subject=How%20to%20use%20blogdown%20in%202025&amp;body=https%3A%2F%2Fexample.com%2Fpost%2Fhow-to-use-blogdown-in-2025%2F"
+    href="mailto:?subject=blogdown%20101&amp;body=https%3A%2F%2Fexample.com%2Fpost%2Fblogdown-101%2F"
     title="Email"
     aria-label="Email"
     id="share-link-email"
@@ -1204,7 +1252,7 @@
   <a
     target="_blank" rel="noopener"
     class="m-1 rounded-md bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral-300 dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-    href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fexample.com%2Fpost%2Fhow-to-use-blogdown-in-2025%2F&amp;title=How&#43;to&#43;use&#43;blogdown&#43;in&#43;2025"
+    href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fexample.com%2Fpost%2Fblogdown-101%2F&amp;title=blogdown&#43;101"
     title="LinkedIn"
     aria-label="LinkedIn"
     id="share-link-linkedin"
@@ -1222,7 +1270,7 @@
   <a
     target="_blank" rel="noopener"
     class="m-1 rounded-md bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral-300 dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-    href="whatsapp://send?text=How&#43;to&#43;use&#43;blogdown&#43;in&#43;2025%20https%3A%2F%2Fexample.com%2Fpost%2Fhow-to-use-blogdown-in-2025%2F"
+    href="whatsapp://send?text=blogdown&#43;101%20https%3A%2F%2Fexample.com%2Fpost%2Fblogdown-101%2F"
     title="WhatsApp"
     aria-label="WhatsApp"
     id="share-link-whatsapp"
@@ -1414,34 +1462,18 @@
   <div class="flex flex-col md:flex-row flex-nowrap justify-between gap-5 pt-2">
     <div class="">
       
-        <a class="group flex no-underline" href="/post/blogdown-101/">
-          <span
-            class="mt-[-0.3rem] me-2 text-neutral-700 transition-transform group-hover:-translate-x-[2px] group-hover:text-primary-600 dark:text-neutral dark:group-hover:text-primary-400"
-          ><span class="ltr:inline rtl:hidden">&larr;</span></span>
-          <span class="flex flex-col">
-            <span
-              class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
-            >blogdown 101</span>
-            <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
-              
-                Jan 25, 2025
-              
-            </span>
-          </span>
-        </a>
-      
     </div>
     <div class="">
       
-        <a class="group flex text-right no-underline" href="/post/get-started/">
+        <a class="group flex text-right no-underline" href="/post/how-to-use-blogdown-in-2025/">
           <span class="flex flex-col">
             <span
               class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
-            >🎉 Easily create your own simple yet highly customizable blog</span
+            >How to use blogdown in 2025</span
             >
             <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
               
-                Oct 27, 2023
+                Jan 25, 2025
               
             </span>
           </span>
